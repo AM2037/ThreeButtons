@@ -16,9 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_PASSAGE = "com.example.android.threebuttons.extra.PASSAGE";
 
     // Unique tag for intent extras
-    public static final int TEXT_REQUEST1 = 1;
-    public static final int TEXT_REQUEST2 = 2;
-    public static final int TEXT_REQUEST3 = 3;
+    public static final int TEXT_REQUEST = 1;
 
 
     private Button mBtnOne;
@@ -57,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                         "\n" +
                         "Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses interest nor replying she she. Bore tall nay many many time yet less. Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly around whence in at. Warmth he up giving oppose if. Impossible is dissimilar entreaties oh on terminated. Earnest studied article country ten respect showing had. But required offering him elegance son improved informed. ";
                 intent.putExtra(EXTRA_PASSAGE, passage1);
-                startActivityForResult(intent, TEXT_REQUEST1);
+                startActivityForResult(intent, TEXT_REQUEST);
                 Log.d(LOG_TAG, "Button one clicked!");
             }
 
@@ -79,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                         "\n" +
                         "Placing assured be if removed it besides on. Far shed each high read are men over day. Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had now those ought set often which. Or snug dull he show more true wish. No at many deny away miss evil. On in so indeed spirit an mother. Amounted old strictly but marianne admitted. People former is remove remain as. ";
                 intent.putExtra(EXTRA_PASSAGE, passage2);
-                startActivityForResult(intent, TEXT_REQUEST2);
+                startActivityForResult(intent, TEXT_REQUEST);
                 Log.d(LOG_TAG, "Button two clicked!");
             }
 
@@ -103,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                         "\n" +
                         "Shot what able cold new the see hold. Friendly as an betrayed formerly he. Morning because as to society behaved moments. Put ladies design mrs sister was. Play on hill felt john no gate. Am passed figure to marked in. Prosperous middletons is ye inhabiting as assistance me especially. For looking two cousins regular amongst. ";
                 intent.putExtra(EXTRA_PASSAGE, passage3);
-                startActivityForResult(intent, TEXT_REQUEST3);
+                startActivityForResult(intent, TEXT_REQUEST);
                 Log.d(LOG_TAG, "Button three clicked!");
             }
 
