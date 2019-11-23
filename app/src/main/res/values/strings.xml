@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Three Buttons</string>
+    <string name="btn_one">Text One</string>
+    <string name="btn_two">Text Two</string>
+    <string name="btn_three">Text Three</string>
+    <string name="choose_a_passage">Please choose a passage:</string>
+    <string name="passage_one_header">Passage I</string>
+    <string name="passage_two_header">Passage II</string>
+    <string name="passage_three_header">Passage III</string>
+</resources>
