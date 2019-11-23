@@ -14,7 +14,7 @@
         android:text="@string/choose_a_passage"
         android:textColor="@android:color/white"
         android:gravity="center"
-        android:textSize="24sp"
+        android:textSize="@dimen/textsize"
         android:typeface="serif"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,7 +22,7 @@
         android:id="@+id/button_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="@dimen/margin"
         android:text="@string/btn_one"
         android:onClick="launchSecondActivity"
         android:background="@color/colorAccent"
@@ -46,7 +46,7 @@
         android:id="@+id/button_three"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/margin"
         android:text="@string/btn_three"
         android:onClick="launchSecondActivity"
         android:background="@color/colorAccent"
